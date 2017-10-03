@@ -1,0 +1,19 @@
+{
+  "name": "recipes_manager_api_techtest",
+  "version": "1.0.0",
+  "description": "Technical test which consists of creating a mini REST API which interacts with recipe models.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^15.0.2",
+    "nodemon": "^1.10.2",
+    "pg": "^6.1.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.24.1"
+  }
+}
